@@ -1,9 +1,10 @@
 import React from 'react';
+import './body.scss';
 
 class Body extends React.Component {
 	render(){
 		return(
-			<div>
+			<div className="body">
 				<p>Body</p>
 			</div>
 		);
